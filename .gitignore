@@ -1,0 +1,7 @@
+/ccip-consumer/target/classes/
+/ccip-provider/target/classes/
+/ccip-provider/ccip-provider.iml
+/.idea/
+/ccip-kepler.iml
+/ccip-gateway/target/classes/
+/.gitignore
