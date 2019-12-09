@@ -1,0 +1,17 @@
+server:
+  port: 8601
+spring:
+  application:
+    name: ccip-consumer
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

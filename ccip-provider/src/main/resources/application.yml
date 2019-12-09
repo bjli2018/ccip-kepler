@@ -1,0 +1,19 @@
+server:
+  port: 8501
+spring:
+  application:
+    name: ccip-provider
+  cloud:
+    consul:
+      discovery:
+        health-check-path: /actuator/health
+      host: localhost
+      port: 8500
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
