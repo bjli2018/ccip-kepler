@@ -3,8 +3,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ConsumerlApp {
+public class GatewayApp {
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerlApp.class,args);
+        SpringApplication.run(GatewayApp.class,args);
     }
 }
